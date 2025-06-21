@@ -1,6 +1,62 @@
-#form{
-    width: 30%;
-    border: 1px solid black;
-    padding: 24px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #f0f2f5;
+}
 
+.container {
+  background: #ffffff;
+  width: 30vw;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.inputfield input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #f0f2f5;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.forgotpassword {
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.forgotpassword a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgotpassword a:hover {
+  text-decoration: underline;
 }
